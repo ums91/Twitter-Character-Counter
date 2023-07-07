@@ -1,0 +1,84 @@
+H1 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 26px;
+	color:#06C;
+	font-weight:bold;
+	margin-bottom: 6px;
+}
+
+H2{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 14px;
+	color:#06C;
+}
+
+.button {
+	background-color: #06C; /* blue */
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+	-webkit-transition-duration: 0.4s; /* Safari */
+	transition-duration: 0.4s;
+  }
+
+  
+  .button2:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.caption{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 24px;
+	color:#FFF;
+
+}
+
+.captionlarge{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 30px;
+	color:#FFF;
+	font-weight:bold;
+}
+
+.captionwho{
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	color:#FFF;
+}
+
+.textarea {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 13px;
+	color:#000;
+}
+
+.text {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color:#666;
+}
+
+.redtext {
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 12px;
+	color:#F00;
+	padding-top:8px;
+}
+.mainDiv {
+	Margin-left: 200px;
+	width: 800px;
+	}
+.mainDiv1 {
+
+	width: 400px;
+}
+.mainDiv2 {
+	width: 400px;
+	background-color:#06C;
+}

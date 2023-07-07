@@ -1,0 +1,63 @@
+<html>
+<head>
+<title>Tweet Character Counter</title>
+<script type="text/javascript" src="charCount.js"></script>
+<link href="style.css" rel="stylesheet" type="text/css">
+
+<script type="text/javascript">
+
+
+</script></head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<br />
+<table width="1000" border="0" align="center" cellpadding="10">
+<tr>
+  <td colspan="2"><img src="images/header1.png" width="810" height="70" border="0" align="right" usemap="#Map" alt="Tweet character counter for twitter"></td>
+  <td rowspan="3">
+
+  
+  </td>
+</tr>
+<tr>
+  <td width="427" valign="top"><form action="act-update-tweet.php" method="post" target="_blank">
+      <h1>Tweet Character Counter</h1>
+      <span class="text">Fine-tune your tweets without the risk of tweeting by mistake.</span><br>
+      <!-- INSERT COMMENT <div class="redtext"><strong>#Updated:</strong> You now have <strong>280</strong> characters to play with!</div> -->
+      <br>
+      <textarea name="taMessage2" cols="50" rows="6" class="textarea" id="taMessage2" onMouseOut="CheckFieldLength(taMessage2, 'charcount2', 'remaining2', 280);" onKeyDown="CheckFieldLength(taMessage2, 'charcount2', 'remaining2', 280);"
+onkeyup="CheckFieldLength(taMessage2, 'charcount2', 'remaining2', 280);"></textarea>
+      <br>
+      <h2><span id="charcount2">0</span> characters entered   | <span id="remaining2">280</span> characters remaining</h2>
+      <a class="button button2" href="https://www.twitter.com/share">Share on Twitter</a>
+      <a class="button button2" onclick="ClearFields()">Clear</a>
+      
+      <br />
+      <br />
+    <br />
+
+
+<br /><br />
+    <a href="https://github.com/ums91/" class="" data-text="Check out this site" data-count="none">© Ums91 on Github</a>
+    
+    
+    </td>
+  <td width="400" class="caption" valign="top"><div style="background-color:#0066FF; padding: 8px;">
+  <p>&quot;No need to risk testing<br>
+      <span class="captionlarge">the size of your tweet </span>directly in your corporate Twitter account.&quot;</p>
+    <p class="captionwho">-Ums91 </p></div></td>
+</tr>
+
+<table>
+<map name="Map">
+  <area shape="rect" coords="644,15,794,57" href="https://github.com/ums91/" target="_blank">
+</map>
+</body>
+<html>
