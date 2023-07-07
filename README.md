@@ -22,7 +22,7 @@ The Tweet Character Counter Web App is built using the following technologies:
 
 ## Contributing
 
-Contributions are always welcome! If you have any ideas, suggestions, or bug reports, please [create an issue](https://github.com/ums91/tweet-character-counter/issues) or submit a pull request. Make sure to follow the [code of conduct](CODE_OF_CONDUCT.md) when contributing to this project.
+Contributions are always welcome! If you have any ideas, suggestions, or bug reports, please [create an issue](https://github.com/ums91/Tweet-Character-Counter/issues) or submit a pull request. Make sure to follow the [code of conduct](CODE_OF_CONDUCT.md) when contributing to this project.
 
 ## License
 
