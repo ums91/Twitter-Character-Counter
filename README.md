@@ -1,6 +1,8 @@
 # Twitter-Character-Counter
 The Tweet Character Counter Web App is a simple web application that allows you to count the number of characters in a tweet.
+<br>
 Link for the Tweet character Counter App : https://ums91.github.io/Twitter-Character-Counter/
+<br>
 The Tweet Character Counter Web App is a simple web application that allows you to count the number of characters in a tweet. It provides a user-friendly interface where you can input your tweet text, and it instantly calculates and displays the character count & instantly share it on twitter. This app can be used by anyone who wants to ensure their tweets meet the character limit imposed by various social media platforms.
 
 ![Tweet Character Counter Web App](charCounter.png)
